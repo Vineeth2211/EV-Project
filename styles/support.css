@@ -1,0 +1,160 @@
+
+body{
+    background-color: #C2C5C9;
+    overflow:hidden;
+}
+.nav{
+    background: rgba(0, 0, 0, 0.33);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.volt{ 
+    margin-left: -10px;
+    margin-top: 0px;
+}
+.logo{
+    display: flex;
+
+}
+.text{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.bg{
+    background-image:url(./images/bg312.jpg);
+    width: 102%;
+    height: 373px;
+    margin-top: 50px;
+    margin-left: -1%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.wel p{
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    margin-left: 4%;
+    margin-top: 9.5%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 210%;
+    line-height: 37px;
+    color: #C2C5C9; 
+    margin-bottom: 30px;    
+}
+
+.quer{
+    position: absolute;
+    width: 40%;
+    height: 61px;
+    margin-left: 4%;
+    margin-top: 13%;
+    background: #C2C5C9;
+    border-radius: 20px;
+    border: none;
+    font-size: 156%;
+  
+}
+
+.quer::placeholder{
+    font-size:80%;
+}
+.quer:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.assis{
+    position: absolute;
+    
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 250%;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 4.5%;
+    margin-left: 8%;
+    color: #121111;
+    border-color: #000000;
+    border-width: 10px;;
+
+}
+.no{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    margin-left: 20%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 180%;
+    line-height: 30px;
+    text-align: center;
+    color: #0C0B0B;
+}
+span{
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+.no p{
+    margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 821px) {
+  .wel p{
+    font-size: 150%;
+  }
+  .assist{
+    margin-top: 10%;
+    margin-left: -20%;
+  }
+  .assis{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 415px){
+    .bg{
+        width: 102%;
+    }
+    .wel{
+        margin-top: 60px;
+    }
+    .que{
+        margin-top: 30px;
+    }
+    .quer{
+        width: 80%;
+    }
+    .assis{
+        font-size: 180%;
+    }
+    .no{
+        font-size: 140%;
+        margin-top: 15%;
+    }
+} 
